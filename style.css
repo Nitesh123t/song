@@ -1,0 +1,100 @@
+<style>
+    /* Reset some default styles */
+    body, h1, h2, h3, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Center the audio player container */
+    #audioContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+
+    /* Style for the audio player */
+    #audioPlayer {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    /* Style for the play/pause button */
+    #audioControls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    /* Style for the previous and next buttons */
+    #audioControls button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    #audioControls button:hover {
+        background-color: #555;
+    }
+
+    /* Style for the song name display */
+    #songName {
+        font-size: 18px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    /* Style for the progress bar */
+    #progressContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #progressBar {
+        flex: 1;
+        height: 6px;
+        background-color: #ccc;
+        border-radius: 3px;
+        margin: 0 10px;
+        position: relative;
+    }
+
+    #progress {
+        height: 100%;
+        width: 0;
+        background-color: #333;
+        border-radius: 3px;
+    }
+
+    /* Style for the volume control */
+    #volumeContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    #volumeBar {
+        width: 100px;
+        margin: 0 10px;
+    }
+
+    /* Style for the time display */
+    #timeDisplay {
+        font-size: 14px;
+        margin-top: 5px;
+        text-align: center;
+    }
+</style>
+
+ 
